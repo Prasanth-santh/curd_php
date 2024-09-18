@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overall{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+form{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid black;
+}
+form>input{
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    outline: none;
+}
+#button{
+   width: 80px;
+    padding: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    padding: 20px 0 ;
+    margin: 0 0 10px;
+    background-color: blanchedalmond;
+}
+.detail{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.detail >a button{
+    width: 25px;
+    background-color: greenyellow;
+    border: none;
+    padding: 3px;
+}
+table{
+    margin: 20px 0 0;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid  black; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    border-collapse: collapse;
+}
+th{
+    background-color:azure ;
+    height: 50px;
+    font-size: 1.4rem;
+}
+tr,td{
+    height: 70px;
+    font-size: 1.1rem;
+    /* border: 1px solid  black; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+.btn-success{
+    padding: 9px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.btn-danger{
+    padding: 9px;
+    background-color: red;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
